@@ -1,7 +1,7 @@
 #include <Arduino.h>
-/* 램프와 스위치 다루기
-  1번 핀 스위치를 on 하면 1번 lamp가 on이 되도록 
-  2번 핀 스위치를 on 하면 1번 lamp가 off가 되도록 
+
+/* MsTimer2를 이용해서 실린더 계속 반복하기 
+  실린더 위치를 기반의 로직으로 A+B+C+C-B-A- 코드를 기반으로
 */
 
 // put function declarations here:
