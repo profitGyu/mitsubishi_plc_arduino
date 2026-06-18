@@ -48,6 +48,9 @@ void loop() {
 
         // (현재 시간 - 마지막 변경 시간)이 설정한 주기(500ms)보다 커졌는지 확인
         if (currentMillis - previousMillis >= interval) {
+            Serial.println(currentMillis);
+            Serial.println(previousMillis);
+            Serial.println(interval);
             // 기준 시간을 현재 시간으로 갱신 (다음 0.5초를 재기 위함)
             previousMillis = currentMillis;
 
